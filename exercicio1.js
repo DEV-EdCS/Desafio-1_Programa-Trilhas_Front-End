@@ -63,3 +63,27 @@ while (loop <= 10) {
 }
 
 // 10. Crie um loop que peça ao usuário para digitar um número até que ele digite o número 5.
+let numeroCinco = 5;
+let chute;
+while (chute != numeroCinco) { // Enquanto o chute não for igual ao número cinco
+    chute = prompt(`Digite o número ${numeroCinco}`);
+}
+console.log(`O usúario digitou o número ${numeroCinco}`);
+
+// 11. Crie um loop que imprima a tabuada do número 7, de 1 a 10.
+let tabuada = 1; // Inicia a tabuada em 1
+let tabuadaSete = 7; // Número da tabuada
+while (tabuada <= 10) { // Enquanto o contador for menor ou igual a 10, a tabuada continua
+    let resultado = tabuadaSete + tabuada; // Declara a variável resultado para armazenar o valor da soma
+  console.log(`${tabuadaSete} + ${tabuada} = ${resultado}`); // Exibe o resultado no console
+  tabuada++; // Incrementa o contador
+}
+
+// 12. Crie um loop que exiba todos os números pares de 0 a 20.
+let pares = 0;
+while (pares <= 20) { // Enquanto o contador for menor ou igual a 20, o contador continua
+    console.log(pares); // Exibe a sequencia de 0 a 20
+    pares+= 2; // Incrementa o contador de 2 e 2, exibindo somente os pares
+}
+
+// 13. 
