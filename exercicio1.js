@@ -86,4 +86,33 @@ while (pares <= 20) { // Enquanto o contador for menor ou igual a 20, o contador
     pares+= 2; // Incrementa o contador de 2 e 2, exibindo somente os pares
 }
 
-// 13. 
+// 13. Escreva um código que calcule a área de um círculo. Utilize uma função para realizar o cálculo. A função deve receber o raio como parâmetro e retornar a área.
+function calcularAreaCirculo(raio) {
+    return 3.14 * (raio * raio);
+}
+
+let areaCirculo = calcularAreaCirculo(2);
+console.log(areaCirculo);
+
+// 14. Comente seu código explicando o que cada parte faz. Crie um programa simples que calcule a soma de dois números e imprima o resultado.
+function calcularNumeros(num1, num2) {
+    return num1 + num2;
+}
+
+let resultadoSoma = calcularNumeros(4,8);
+console.log(resultadoSoma);
+
+// 15. Refatore o código abaixo para que seja mais legível, usando boas práticas de nomenclatura e separando o código em funções:
+
+// x = 10
+// y = 20
+// z = x+y
+
+// console.log(z)
+
+function somarValores(valorA, valorB) {
+    return valorA + valorB;
+}
+
+let valorSoma = somarValores(2, 5);
+console.log(valorSoma);
