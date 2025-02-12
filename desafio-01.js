@@ -88,7 +88,7 @@ while (pares <= 20) { // Enquanto o contador for menor ou igual a 20, o contador
 
 // 13. Escreva um código que calcule a área de um círculo. Utilize uma função para realizar o cálculo. A função deve receber o raio como parâmetro e retornar a área.
 function calcularAreaCirculo(raio) { // Declara a função calcularAreaCirculo com o raio como parâmetro
-    return 3.14 * (raio * raio); // Utilizar o return para guardar o resultado da fórmula da área do círculo
+    return Math.PI * (raio * raio); // Utilizar o return para guardar o resultado da fórmula da área do círculo
 }
 
 let areaCirculo = calcularAreaCirculo(2); // Declara a variável areaCirculo como sendo igual ao resultado da função
@@ -99,7 +99,7 @@ function calcularNumeros(num1, num2) { // Declara a função com dois números c
     return num1 + num2; // Utilizar o return para guardar o resultado da soma
 }
 
-let resultadoSoma = calcularNumeros(4,8); // Declara a variável resultadoSoma com o valor dos parâmetros a serem calculados
+let resultadoSoma = calcularNumeros(7,8); // Declara a variável resultadoSoma com o valor dos parâmetros a serem calculados
 console.log(resultadoSoma); // Exibe então no console o resultado
 
 // 15. Refatore o código abaixo para que seja mais legível, usando boas práticas de nomenclatura e separando o código em funções:
