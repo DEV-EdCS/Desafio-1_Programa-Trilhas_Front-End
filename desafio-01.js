@@ -30,8 +30,8 @@ if (idade2 >= 18) {
 }
 
 // 6. Crie uma variável chamada nota e atribua um valor entre 0 e 10. Se a nota for maior ou igual a 7, exiba "Aprovado". Se for entre 5 e 6, exiba "Recuperação". Caso contrário, exiba "Reprovado".
-// let nota = 8.9;
-let nota = prompt ('Qual foi a sua nota?');
+// let nota = prompt ('Qual foi a sua nota?'); Exemplo
+let nota = 8.9;
 if (nota >= 7) {
     console.log('Aprovado');
 } else if (nota < 5) {
@@ -59,20 +59,20 @@ let loop = 1; // Inicializa o loop em 1
 // Enquanto o contador for menor ou igual a 10, o loop continua
 while (loop <= 10) {
   console.log(loop); // Exibe o número atual
-  loop++; // Incrementa o loop
+  loop++; // Incrementa o loop = loop + loop + 1;
 }
 
 // 10. Crie um loop que peça ao usuário para digitar um número até que ele digite o número 5.
 let numeroCinco = 5;
 let chute;
-while (chute != numeroCinco) { // Enquanto o chute não for igual ao número cinco
+while (chute != numeroCinco) { // Cria a condição do loop, enquanto o chute não for igual ao número cinco o loop continua
     chute = prompt(`Digite o número ${numeroCinco}`);
 }
-console.log(`O usúario digitou o número ${numeroCinco}`);
+console.log(`O usúario digitou o número ${numeroCinco}`); // Ao digitar o numero cinco exibe a mensagem no console
 
 // 11. Crie um loop que imprima a tabuada do número 7, de 1 a 10.
 let tabuada = 1; // Inicia a tabuada em 1
-let tabuadaSete = 7; // Número da tabuada
+let tabuadaSete = 7; // Número da tabuada, nesse caso o 7
 while (tabuada <= 10) { // Enquanto o contador for menor ou igual a 10, a tabuada continua
     let resultado = tabuadaSete + tabuada; // Declara a variável resultado para armazenar o valor da soma
   console.log(`${tabuadaSete} + ${tabuada} = ${resultado}`); // Exibe o resultado no console
@@ -82,25 +82,25 @@ while (tabuada <= 10) { // Enquanto o contador for menor ou igual a 10, a tabuad
 // 12. Crie um loop que exiba todos os números pares de 0 a 20.
 let pares = 0;
 while (pares <= 20) { // Enquanto o contador for menor ou igual a 20, o contador continua
-    console.log(pares); // Exibe a sequencia de 0 a 20
-    pares+= 2; // Incrementa o contador de 2 e 2, exibindo somente os pares
+    console.log(pares); // Exibe o valor da variável pares atual = 0
+    pares+= 2; // Incrementa o contador +2 em cada resultado, exibindo então somente os pares até 20
 }
 
 // 13. Escreva um código que calcule a área de um círculo. Utilize uma função para realizar o cálculo. A função deve receber o raio como parâmetro e retornar a área.
-function calcularAreaCirculo(raio) {
-    return 3.14 * (raio * raio);
+function calcularAreaCirculo(raio) { // Declara a função calcularAreaCirculo com o raio como parâmetro
+    return 3.14 * (raio * raio); // Utilizar o return para guardar o resultado da fórmula da área do círculo
 }
 
-let areaCirculo = calcularAreaCirculo(2);
-console.log(areaCirculo);
+let areaCirculo = calcularAreaCirculo(2); // Declara a variável areaCirculo como sendo igual ao resultado da função
+console.log(areaCirculo); //Exibe no console o resultado
 
 // 14. Comente seu código explicando o que cada parte faz. Crie um programa simples que calcule a soma de dois números e imprima o resultado.
-function calcularNumeros(num1, num2) {
-    return num1 + num2;
+function calcularNumeros(num1, num2) { // Declara a função com dois números como parâmetros
+    return num1 + num2; // Utilizar o return para guardar o resultado da soma
 }
 
-let resultadoSoma = calcularNumeros(4,8);
-console.log(resultadoSoma);
+let resultadoSoma = calcularNumeros(4,8); // Declara a variável resultadoSoma com o valor dos parâmetros a serem calculados
+console.log(resultadoSoma); // Exibe então no console o resultado
 
 // 15. Refatore o código abaixo para que seja mais legível, usando boas práticas de nomenclatura e separando o código em funções:
 
@@ -110,9 +110,9 @@ console.log(resultadoSoma);
 
 // console.log(z)
 
-function somarValores(valorA, valorB) {
+function somarValores(valorA, valorB) { // Declara a função somarValores equivalente a z, com dois parâmetros valorA e valorB, equivalente a x e y
     return valorA + valorB;
 }
 
-let valorSoma = somarValores(2, 5);
-console.log(valorSoma);
+let valorSoma = somarValores(2, 5); // Declara a variável valorSoma e atribui os valores para cada parâmetro
+console.log(valorSoma); // Exibe então no console o resultado
